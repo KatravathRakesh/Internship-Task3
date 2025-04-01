@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Project</title>
+    <link rel="stylesheet" href="task3.css">
+  </head>
+  <body>
+    <h1>Responsive Interactive Project</h1>
+    <div class="carousel">
+      <button class="btn" onclick="prevImage()">&#9665;</button>
+      <img id="carouselImage" src="images/1.jpg" alt="Image Carousel" />
+      <button class="btn" onclick="nextImage()">&#9655;</button>
+    </div>
+
+    <div class="joke-container">
+        <h2>Random Joke</h2>
+        <p id="joke">Click the button for joke!</p>
+        <button class="btn" onclick="fetchJoke()">Get Joke</button>
+
+    </div>
+  </body>
+  <script src="task3.js"></script>
+</html>
